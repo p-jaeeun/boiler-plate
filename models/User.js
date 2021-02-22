@@ -13,6 +13,10 @@ const userSchema = mongoose.Schema({
     type: String,
     maxlength: 50,
   },
+  lastname: {
+    type: String,
+    maxlength: 50,
+  },
   role: {
     type: Number, // 번호로 역할 구분 (관리자 ,고객..)
     default: 0,
